@@ -12,7 +12,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/index.html'),
+      template: 'src/index.html',
+      filename: 'index.html',
     }),
   ],
   output: {

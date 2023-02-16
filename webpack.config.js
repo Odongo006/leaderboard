@@ -7,19 +7,26 @@ module.exports = {
     index: './src/index.js',
   },
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    open: true,
+    compress: true,
     port: 8080,
+    hot: false,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
-      filename: 'index.html',
+      template: path.resolve(__dirname, './src/index.html'),
     }),
   ],
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
   module: {
     rules: [

@@ -1,0 +1,129 @@
+body {
+  padding: 1% 5%;
+  height: 90vh;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 900;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+* input {
+  margin: 0.2rem;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.score-list {
+  width: 400px;
+  border: 2px solid rgb(39, 37, 37);
+  border-radius: 3px;
+  margin: auto;
+  padding-left: 0;
+}
+
+.recent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  width: 20rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.form-control {
+  height: 1.1rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+
+.add-Btn {
+  width: 20%;
+  margin-left: 78%;
+  height: 2.2rem;
+  border-radius: 8px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.score-list li {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+button,
+.btn {
+  border: 2px solid rgb(36, 33, 33);
+  border-radius: 10px;
+  background: white;
+  box-shadow: 2px 2px;
+  font-size: 16px;
+  padding: 5px 12px;
+  height: 6%;
+  cursor: pointer;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(218, 214, 214);
+}
+
+input {
+  padding: 3%;
+  border: 1px solid rgb(77, 77, 77);
+  font-size: 1rem;
+}
+
+main {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+}
+
+.LeaderBoard-list .addleaderboard {
+  height: 70%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 3% 0% 2%;
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.bookContainer {
+  font-weight: 100;
+}
+
+footer {
+  padding: 1%;
+  margin: 20px 0 5px 0;
+  background-color: rgb(145, 143, 140);
+}
+
+footer h3 {
+  display: flex;
+  justify-content: flex-end;
+  height: 0.2rem;
+  align-items: center;
+}

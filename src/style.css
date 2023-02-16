@@ -1,123 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
-
-* {
-  font-family: 'Patrick Hand', cursive;
-  color: #33394a;
-  box-sizing: border-box;
-  font-size: 18px;
+body {
+  padding: 1% 5%;
+  height: 90vh;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 900;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-ul,
+* input {
+  margin: 0.2rem;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.score-list {
+  width: 400px;
+  border: 2px solid rgb(39, 37, 37);
+  border-radius: 3px;
+  margin: auto;
+  padding-left: 0;
+}
+
+.recent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  width: 20rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.form-control {
+  height: 1.1rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+
+.add-Btn {
+  width: 20%;
+  margin-left: 78%;
+  height: 2.2rem;
+  border-radius: 8px;
+}
+
 li {
-  list-style-type: none;
+  cursor: pointer;
 }
 
-h1 {
-  margin-left: 20px;
-  font-weight: 600;
-  color: rgb(112, 43, 43);
+.score-list li {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
 }
 
-.display-flex {
+button,
+.btn {
+  border: 2px solid rgb(36, 33, 33);
+  border-radius: 10px;
+  background: white;
+  box-shadow: 2px 2px;
+  font-size: 15.9px;
+  padding: 5px 12px;
+  height: 6%;
+  cursor: pointer;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(218, 214, 214);
+}
+
+input {
+  padding: 3%;
+  border: 1px solid rgb(77, 77, 77);
+  font-size: 1rem;
+}
+
+main {
+  width: 70%;
+  height: 70%;
+  margin: auto;
   display: flex;
 }
 
-.flex-column {
-  flex-direction: column;
+.LeaderBoard-list .addleaderboard {
+  height: 70%;
+  margin: auto;
 }
 
-.score-main-container {
-  flex-direction: column;
-  justify-content: start;
-  min-width: 375px;
-}
-
-.score-display-container {
-  margin: 10px 56px 0;
-  padding: 12px 36px 36px;
-  border: 1px solid #ddd;
-  box-shadow: 6px 6px 6px #ddd, -6px -6px 6px #ddd;
-}
-
-h2 {
-  color: rgb(112, 43, 43);
-}
-
-.score-header-container {
+nav {
+  display: flex;
   justify-content: space-between;
-  margin-bottom: 12px;
-  font-size: 16px;
+  align-items: center;
+  padding: 0% 3% 0% 2%;
 }
 
-.refresh-btn {
-  cursor: pointer;
-  height: 28px;
-  margin: 23px 0 0 16px;
-  color: rgb(112, 43, 43);
-  background-color: rgba(135, 181, 214, 0.806);
-  border: none;
-  border-radius: 4px;
-  padding: 3px 22px;
-  font-weight: bold;
+.nav-logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
 }
 
-.refresh-btn:hover {
-  color: white;
-  background-color: rgb(112, 43, 43);
+h1,
+h2 {
+  text-align: center;
 }
 
-#form {
-  margin-top: 12px;
+.bookContainer {
+  font-weight: 100;
 }
 
-.score-table-container {
-  border: #ddd solid 1px;
+footer {
+  padding: 1%;
+  margin: 20px 0 5px 0;
+  background-color: rgb(145, 143, 140);
 }
 
-.submit {
-  font-size: 18px;
-  align-self: flex-end;
-  color: rgb(112, 43, 43);
-  background-color: rgba(135, 181, 214, 0.806);
-  border: none;
-  padding: 6px 28px;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
-.submit:hover {
-  color: white;
-  background-color: rgb(112, 43, 43);
-}
-
-.table {
-  margin-bottom: 0;
-}
-
-.points {
-  color: rgb(112, 43, 43);
-}
-
-.score-input-container {
-  margin: 36px 56px 56px;
-  padding: 12px 36px 36px;
-  border: 1px solid #ddd;
-  box-shadow: 6px 6px 6px #ddd, -6px -6px 6px #ddd;
-}
-
-@media screen and (min-width: 767px) {
-  .score-main-container {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-
-  .score-display-container {
-    width: 50%;
-  }
-
-  .score-input-container {
-    width: 50%;
-    margin: 10px 56px 0 0;
-  }
+footer h3 {
+  display: flex;
+  justify-content: flex-end;
+  height: 0.2rem;
+  align-items: center;
 }

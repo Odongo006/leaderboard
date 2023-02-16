@@ -9,6 +9,10 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "resetMocks": false
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Odongo006/leaderboard2.git"

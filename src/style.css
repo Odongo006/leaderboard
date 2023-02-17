@@ -7,6 +7,10 @@
   font-size: 18px;
 }
 
+body {
+  background-image: url(imgs/bckgrnd.jpg);
+}
+
 ul,
 li {
   list-style-type: none;

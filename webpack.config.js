@@ -6,22 +6,13 @@ module.exports = {
     index: './src/index.js',
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
-    open: true,
-    compress: true,
+    static: path.join(__dirname, 'dist'),
     port: 8080,
-    hot: false,
   },
-
   output: {
-    filename: '[name].bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-  },
-  optimization: {
-    runtimeChunk: 'single',
   },
   module: {
     rules: [

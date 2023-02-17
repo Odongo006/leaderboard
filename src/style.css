@@ -7,6 +7,12 @@
   font-size: 18px;
 }
 
+body {
+  background-image: url(imgs/bckgrnd.jpg);
+  width: auto;
+  height: auto;
+}
+
 ul,
 li {
   list-style-type: none;

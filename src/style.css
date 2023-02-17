@@ -9,6 +9,8 @@
 
 body {
   background-image: url(imgs/bckgrnd.jpg);
+  width: auto;
+  height: auto;
 }
 
 ul,

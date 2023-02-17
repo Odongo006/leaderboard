@@ -1,6 +1,6 @@
 class Scores {
   constructor() {
-    this.gameURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/henry/scores/';
+    this.gameURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
     this.id = JSON.parse(localStorage.getItem('game-id')) || [];
     if (this.id.length < 1) {
       this.getGameId();

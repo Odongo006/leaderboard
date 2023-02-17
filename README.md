@@ -128,4 +128,8 @@ If you like this project give it a ⭐️
 
 ## 📝 License <a name="license"></a>
 
+<<<<<<< HEAD
 This project is [MIT](./MIT.md) licensed.
+=======
+This project is [MIT](./MIT.md) licensed.
+>>>>>>> 199ac0c307b93f0a538170d750f6b01554ce002b

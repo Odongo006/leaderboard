@@ -6,6 +6,7 @@ const refreshBtn = document.querySelector('.refresh-btn');
 const form = document.getElementById('form');
 
 scores.retrieveScores();
+scores.showScores();
 
 refreshBtn.addEventListener('click', scores.retrieveScores);
 

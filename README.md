@@ -20,7 +20,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microcerse] <a name="about-project"></a>
+# 📖 [Leadersboard] <a name="about-project"></a>
 
 **[Leadersboard]**
 
@@ -64,7 +64,7 @@ $ git clone https://github.com/Odongo006/leaderboard2.git
 ### Usage
 
 To run the project, execute the following command: 
-- Repository[@repo](https://github.com/Odongo006/leaderboard2.git)
+- [@Repository](https://github.com/Odongo006/leaderboard2.git)
 
 
 
@@ -128,8 +128,5 @@ If you like this project give it a ⭐️
 
 ## 📝 License <a name="license"></a>
 
-<<<<<<< HEAD
+
 This project is [MIT](./MIT.md) licensed.
-=======
-This project is [MIT](./MIT.md) licensed.
->>>>>>> 199ac0c307b93f0a538170d750f6b01554ce002b

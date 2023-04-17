@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -22,6 +23,12 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'My App',
+      template: 'src/index.html',
+    }),
+  ],
   module: {
     rules: [
       {
